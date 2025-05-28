@@ -150,4 +150,7 @@ Players complete Sudoku puzzles by filling a grid so that every row, column, and
 - Microsoft Corporation (2014). *Microsoft Sudoku Logo*  
   [Microsoft Sudoku Logo](https://play-lh.googleusercontent.com/geYqUNjozTsBOjcqGY7usNzA1_CmHHJRrFxxbssrsZxzPfcHft4wQMl9GV9iakacvbM)
 
+- Flaticon (2010). *Menu Icons*  
+  [Menu Icons](https://www.flaticon.com/icon-fonts-most-downloaded)
+
 ---
