@@ -1,0 +1,60 @@
+fileFormatVersion: 2
+guid: 1312c0324db81d0429fb0ee5d49cd9ba
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: a57477913897c46af95d590f580878bd, type: 3}
+  svgType: 3
+  texturedSpriteMeshType: 0
+  svgPixelsPerUnit: 100
+  gradientResolution: 64
+  alignment: 0
+  customPivot: {x: 0, y: 0}
+  generatePhysicsShape: 0
+  viewportOptions: 0
+  preserveViewport: 0
+  advancedMode: 0
+  predefinedResolutionIndex: 1
+  targetResolution: 1080
+  resolutionMultiplier: 1
+  stepDistance: 10
+  samplingStepDistance: 100
+  maxCordDeviationEnabled: 0
+  maxCordDeviation: 1
+  maxTangentAngleEnabled: 0
+  maxTangentAngle: 5
+  keepTextureAspectRatio: 1
+  textureSize: 256
+  textureWidth: 256
+  textureHeight: 256
+  wrapMode: 0
+  filterMode: 1
+  sampleCount: 4
+  preserveSVGImageAspect: 0
+  useSVGPixelsPerUnit: 0
+  spriteData:
+    TessellationDetail: 0
+    SpriteRect:
+      name: menu-burgerSprite
+      originalName: 
+      pivot: {x: 0.5, y: 0.49953997}
+      alignment: 0
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 363
+      spriteID: f94d161fcc980914394f0a27ed1dffe0
+    PhysicsOutlines:
+    - Vertices:
+      - {x: 256, y: 181.5}
+      - {x: -256, y: 181.5}
+      - {x: -256, y: -181.5}
+      - {x: 256, y: -181.5}

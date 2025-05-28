@@ -1,3 +1,25 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/Styles/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=24cd1251d939a474f9da005b7e36d422&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="main-container" style="flex-grow: 1;">
+        <ui:VisualElement name="top-container" style="flex-grow: 1; max-height: 10%; flex-direction: row;">
+            <ui:Button name="btn-player-icon" icon-image="project://database/Assets/UI%20Toolkit/Resourses/Icons/user.svg?fileID=7388822144124034973&amp;guid=67bbadff7d03cbc4c9d31809b0fb421e&amp;type=3#user" />
+            <ui:VisualElement name="player-text-container" style="flex-grow: 1;">
+                <ui:Label text="Player Name" name="txt-player-name" />
+                <ui:Label text="Level 1" name="txt-player-level" />
+            </ui:VisualElement>
+            <ui:Button text="Button" name="btn-settings" class="button-icon" />
+        </ui:VisualElement>
+        <ui:VisualElement name="title-container" style="flex-grow: 1; justify-content: flex-end;">
+            <ui:Label text="Dy-Sudoku" name="txt-title" class="title" style="align-items: center;" />
+            <ui:VisualElement name="button-container" style="flex-grow: 1; flex-direction: column; justify-content: flex-end; max-height: 50%;">
+                <ui:Button text="New Game" name="btn-new-game" class="button button-menu" />
+                <ui:Button text="Continue" name="btn-continue" class="button button-menu" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-container" style="flex-grow: 1; max-height: 10%; flex-direction: row; padding-left: 10%; padding-right: 10%; padding-top: 0%; padding-bottom: 0%; margin-right: 0; align-self: auto; align-content: center; align-items: center; flex-basis: auto;">
+            <ui:Button name="btn-home" display-tooltip-when-elided="true" icon-image="project://database/Assets/UI%20Toolkit/Resourses/Icons/home.svg?fileID=7388822144124034973&amp;guid=85c308a6d50a41942aceacb9b57cc54d&amp;type=3#home" class="button button-icon" style="margin-left: 0%; margin-top: 0%; margin-right: 0%; margin-bottom: 0%; background-image: none; background-color: rgb(255, 255, 255);" />
+            <ui:Button name="btn-daily" icon-image="project://database/Assets/UI%20Toolkit/Resourses/Icons/calendar.svg?fileID=7388822144124034973&amp;guid=dc848d6e845d3e04e89a24ca25dc7bae&amp;type=3#calendar" class="button button-icon" style="margin-left: 10%; margin-top: 0%; margin-right: 10%; margin-bottom: 0%;" />
+            <ui:Button name="btn-pvp" icon-image="project://database/Assets/UI%20Toolkit/Resourses/Icons/two-swords.svg?fileID=7388822144124034973&amp;guid=bcf8eae85967e934bb531dd8f90ea3dd&amp;type=3#two-swords" class="button button-icon" style="margin-left: 0%; margin-top: 0%; margin-right: 0%; margin-bottom: 0%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
 </ui:UXML>

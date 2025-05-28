@@ -1,1 +1,39 @@
-VisualElement {}
+.title {
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/Fonts/OpenDyslexic3-Bold.ttf?fileID=12800000&guid=659a645bb5a968543953d403474c5421&type=3#OpenDyslexic3-Bold");
+    font-size: 400%;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+#main-container {
+    background-color: rgb(78, 147, 163);
+}
+
+.button-icon {
+    background-color: rgb(255, 255, 255);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    right: auto;
+    left: auto;
+}
+
+.button-menu {
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    -unity-font-definition: url("project://database/Assets/UI%20Toolkit/Fonts/OpenDyslexic3-Bold.ttf?fileID=12800000&guid=659a645bb5a968543953d403474c5421&type=3#OpenDyslexic3-Bold");
+    font-size: 150%;
+    -unity-font-style: normal;
+    -unity-text-align: middle-center;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+}
+
+#btn-player-icon {
+}
